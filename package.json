@@ -1,0 +1,16 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+     "g": "git add . && git commit -m 'first commit' && git push -u origin main -f"
+  },
+  "dependencies": {
+    "next": "10.0.9",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}
